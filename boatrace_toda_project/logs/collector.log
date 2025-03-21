@@ -1,0 +1,52 @@
+2025-03-21 10:50:15,359 - matplotlib - WARNING - 
+Bad key font.manager.use_fontconfig in file /home/ubuntu/.config/matplotlib/matplotlibrc, line 33 ('font.manager.use_fontconfig : True')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.10.1/lib/matplotlib/mpl-data/matplotlibrc
+or from the matplotlib source distribution
+2025-03-21 10:50:16,400 - matplotlib.font_manager - INFO - Failed to extract font properties from /usr/share/fonts/truetype/unifont/unifont_sample.ttf: Could not set the fontsize (invalid pixel size; error code 0x17)
+2025-03-21 10:50:16,522 - matplotlib.font_manager - INFO - Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Can not load face (unknown file format; error code 0x2)
+2025-03-21 10:50:16,740 - matplotlib.font_manager - INFO - generated new fontManager
+2025-03-21 10:50:17,120 - __main__ - INFO - ユニットテストを実行します
+2025-03-21 10:50:17,129 - src.data_collection.collector - INFO - Fetching motor/boat info for date: 20250314, URL: https://www.boatrace.jp/owpc/pc/race/motor?jcd=02&hd=20250314
+2025-03-21 10:50:20,077 - src.data_collection.collector - WARNING - No motor/boat information found for date: 20250314
+2025-03-21 10:50:20,078 - src.data_collection.collector - INFO - Fetching race details for date: 20250314, race: 1, URL: https://www.boatrace.jp/owpc/pc/race/raceresult?rno=1&jcd=02&hd=20250314
+2025-03-21 10:50:23,132 - src.data_collection.collector - INFO - Successfully fetched race details for date: 20250314, race: 1
+2025-03-21 10:50:23,134 - src.data_collection.collector - INFO - Fetching race results for date: 20250314, URL: https://www.boatrace.jp/owpc/pc/race/resultlist?jcd=02&hd=20250314
+2025-03-21 10:50:26,474 - src.data_collection.collector - WARNING - No race results found for date: 20250314
+2025-03-21 10:50:26,516 - src.data_processing.preprocessor - INFO - Successfully preprocessed data: 3 rows
+2025-03-21 10:50:26,560 - src.data_processing.preprocessor - INFO - Successfully created features: 3 rows
+2025-03-21 10:50:26,572 - src.data_processing.preprocessor - INFO - Successfully preprocessed data: 3 rows
+2025-03-21 10:50:26,580 - src.prediction.model - INFO - Prepared features: 9 features, 6 samples
+2025-03-21 10:50:26,588 - src.prediction.model - INFO - Prepared features: 9 features, 6 samples
+2025-03-21 10:50:26,591 - src.prediction.model - INFO - Training random_forest model...
+2025-03-21 10:50:26,780 - src.prediction.model - INFO - random_forest model evaluation:
+2025-03-21 10:50:26,780 - src.prediction.model - INFO -   Accuracy: 0.5000
+2025-03-21 10:50:26,781 - src.prediction.model - INFO -   Precision: 0.2500
+2025-03-21 10:50:26,781 - src.prediction.model - INFO -   Recall: 0.5000
+2025-03-21 10:50:26,781 - src.prediction.model - INFO -   F1 Score: 0.3333
+2025-03-21 10:50:26,830 - src.prediction.model - INFO - Model saved to /home/ubuntu/boatrace_toda_project/models/random_forest_model.joblib
+2025-03-21 10:50:28,520 - src.prediction.model - INFO - Training gradient_boosting model...
+2025-03-21 10:50:28,523 - src.prediction.model - ERROR - Error training model: y contains 1 class after sample_weight trimmed classes with zero weights, while a minimum of 2 classes are required.
+2025-03-21 10:50:28,524 - src.prediction.predictor - INFO - Starting prediction for race 1 on 20250314
+2025-03-21 10:50:28,524 - data_collection.collector - INFO - Fetching race details for date: 20250314, race: 1, URL: https://www.boatrace.jp/owpc/pc/race/raceresult?rno=1&jcd=02&hd=20250314
+2025-03-21 10:50:30,671 - data_collection.collector - INFO - Successfully fetched race details for date: 20250314, race: 1
+2025-03-21 10:50:30,673 - data_collection.collector - INFO - Fetching motor/boat info for date: 20250314, URL: https://www.boatrace.jp/owpc/pc/race/motor?jcd=02&hd=20250314
+2025-03-21 10:50:32,769 - data_collection.collector - WARNING - No motor/boat information found for date: 20250314
+2025-03-21 10:50:32,770 - src.prediction.predictor - ERROR - No valid race data for race 1 on 20250314
+2025-03-21 10:51:50,960 - matplotlib - WARNING - 
+Bad key font.manager.use_fontconfig in file /home/ubuntu/.config/matplotlib/matplotlibrc, line 33 ('font.manager.use_fontconfig : True')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.10.1/lib/matplotlib/mpl-data/matplotlibrc
+or from the matplotlib source distribution
+2025-03-21 10:51:51,362 - src.data_processing.preprocessor - INFO - Successfully preprocessed data: 3 rows
+2025-03-21 10:51:51,391 - src.data_processing.preprocessor - INFO - Successfully created features: 3 rows
+2025-03-21 10:51:51,403 - src.data_processing.preprocessor - INFO - Successfully preprocessed data: 3 rows
+2025-03-21 10:52:36,708 - matplotlib - WARNING - 
+Bad key font.manager.use_fontconfig in file /home/ubuntu/.config/matplotlib/matplotlibrc, line 33 ('font.manager.use_fontconfig : True')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.10.1/lib/matplotlib/mpl-data/matplotlibrc
+or from the matplotlib source distribution
+2025-03-21 10:52:37,105 - src.data_processing.preprocessor - INFO - Successfully preprocessed data: 3 rows
+2025-03-21 10:52:37,134 - src.data_processing.preprocessor - INFO - Successfully created features: 3 rows
+2025-03-21 10:52:37,148 - src.data_processing.preprocessor - INFO - Successfully preprocessed data: 3 rows
+2025-03-21 10:52:37,158 - src.prediction.model - INFO - Prepared features: 9 features, 20 samples
